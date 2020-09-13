@@ -14,11 +14,10 @@ You can do it with well-known terraform constructs.( provisioner etc)
 
 After your deployment is done, you can use `terrazero`, which  will automatically detect ips from terraform output, so you can run `terrazero -c "uptime"`, this will run uptime to all your nodes you installed `node.py`.
 
-This is just a possible feature.
 
 # Features:
 
-- Run remote command on all your host `terrazero "ls -l"
+- Run remote command on all your host `terrazero "ls -l"`
 
 Warning: this project was made to learn purposes, so features can evolve or disapper until a shape.
 

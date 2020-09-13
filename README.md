@@ -8,11 +8,13 @@ Terrazero is the fastest, minimalistic CLI taylored for terraform deployements.
 
 Unlike many other utilities, you don't need any configuration for running terrazero.
 
+
 During your terraform deployment copy the `node.py` to  your cloud instances.
 You can do it with well-known terraform constructs.( provisioner etc)
 
-`Terrazero` will automatically detect those ips, so you can run `terrazero -c "uptime"`, this will run uptime to all your nodes you installed `node.py`.
+After your deployment is done, you can use `terrazero`, which  will automatically detect ips from terraform output, so you can run `terrazero -c "uptime"`, this will run uptime to all your nodes you installed `node.py`.
 
+This is just a possible feature.
 
 # Features:
 
